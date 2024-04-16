@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-     adasdadadqw
+    <Header/>
     <FutureOf/>
   
     </>
