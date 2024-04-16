@@ -10,9 +10,7 @@ function App() {
 
   return (
     <>
-    hello worldadsasfv
-    afasf,a;fkl
-    saffasf
+     <Header/>
     <FutureOf/>
   
     </>
