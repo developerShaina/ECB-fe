@@ -107,3 +107,41 @@
       padding: 16px 32px;
       gap: 10px;
     }
+
+  
+    .login-button{
+      width: Hug (272px)px;
+height: Hug (62px)px;
+/* padding: 16px 0px 0px 0px;
+gap: 10px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px; */
+background: #EB8347;
+
+
+    }
+
+   
+
+  .modal-content {
+    margin-top: 200px;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+  padding: 40px;
+
+}
+
+
+
+
+.login-container {
+  display: contents
+}
+
+
+button.login-button {
+  width: 70px;
+  /* align-content: center; */
+}
