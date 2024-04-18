@@ -26,6 +26,7 @@
     font-size: 48px;
     font-weight: bold;
     color: #007bff;
+    
     /* Add the following styles */
     display: inline-block;
   }
@@ -110,16 +111,19 @@
 
   
     .login-button{
-      width: Hug (272px)px;
-height: Hug (62px)px;
-/* padding: 16px 0px 0px 0px;
-gap: 10px;
-border-radius: 12px 0px 0px 0px;
-opacity: 0px; */
+     
 background: #EB8347;
 
 
     }
+
+    button.login-button {
+      width: 240px;
+      /* align-content: center; */
+      height: 50px;
+      margin-top: 20px;
+      margin-left: 90px;
+  }
 
    
 
@@ -134,8 +138,6 @@ background: #EB8347;
 }
 
 
-
-
 .login-container {
   display: contents
 }
@@ -144,4 +146,10 @@ background: #EB8347;
 button.login-button {
   width: 70px;
   /* align-content: center; */
+}
+
+
+img {
+  height: 60px;
+  width: 107px;
 }
