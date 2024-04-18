@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Modal } from 'react-bootstrap';
+// import { Button, Modal } from 'react-bootstrap';
 
 const Login = (props) => {
     return (
         <>
-            <Modal show={show} onHide={handleClose}>
+            <Modal >
                 <div className="login-container">
                     <input type="email" className="input-field email" placeholder="Email Id" />
                     <input type="password" className="input-field password" placeholder="Password" />
