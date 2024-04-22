@@ -4,11 +4,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
-
-
-
-import Image from '../assets/Images/Group 427320410.svg';
-
+import Image from '../assets/images/Group 427320410.svg';
 function FutureOf() {
   return (
     <>
@@ -19,16 +15,17 @@ function FutureOf() {
           padding: '2rem',
           borderRadius: '40px',
           textAlign: 'left',
-          maxWidth: '1920px',
+          maxWidth: '2920px',
           maxHeight: '8142.72px',
           display: 'flex',
-          flexDirection: 'row', 
-          alignItems: 'center', 
+          flexDirection: 'row',
+          alignItems: 'center',
           gap: '1rem',
-          width: '70%',
+          width: '90%',
+         height:'600px',
           color: 'white'
         }}>
-       
+
           <div style={{ flex: '1' }}>
             <h1>Welcome to the Future of Financial Empowerment</h1>
             <h2>Unlocking Opportunities for Borrowers and Investors</h2>
@@ -46,7 +43,7 @@ function FutureOf() {
             </div>
           </div>
 
-      
+
           <img src={Image} alt="Image" style={{ maxHeight: '300px', marginLeft: '1rem' }} />
 
         </div>

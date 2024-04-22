@@ -1,0 +1,38 @@
+.container2 {
+    position: relative;
+    width: 828px;
+    height: 923px;
+    top: 2653.14px;
+    left: 971px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    overflow: hidden;
+  }
+  
+  .container2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#D6E1FF 100%, #F9FAFF 100%, #FFFFFF 100%);
+    z-index: -1;
+  }
+  
+  .content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .content2 span {
+    color: #626ECA;
+  }
+  

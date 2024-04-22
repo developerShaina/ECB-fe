@@ -1,155 +1,120 @@
 /* header.css */
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    /* Add the following styles */
-    flex-direction: row;
-  }
-  
-  .header-left {
-    display: flex;
-    align-items: center;
-    /* Add the following styles */
-    flex-direction: row;
-  }
-  
-  .horizontal-text {
-    font-size: 48px;
-    font-weight: bold;
-    color: #007bff;
-    
-    /* Add the following styles */
-    display: inline-block;
-  }
-  
-  .vertical-text {
-    color: #ff7f50;
-    text-align: center;
-    margin-left: 10px;
-    display: inline-block;
-  }
-  .header-center {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 388px;
-    height: 75px;
-    background-color: #ff7f50;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .rectangle {
-    width: 392px;
-    height: 57px;
-    background-color: #ffffff;
-    /* Add other styling properties as needed */
-  }
-  
-  /* .header-center {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
-    height: 75px;
-    background-color: #ff7f50;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50px; /* Adds round corners */
-    /* z-index: 999; /* Adjust as needed */
-  
-  
-    .btn-login,
-    .btn-register {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      width: 100px;
-      height: 50px; 
-    }
-    
-    .btn-login {
-      background-color: #fff;
-      color: #ff7f50;
-      margin-right: 10px;
-      border: 1px solid #ff7f50; 
-    }
-  
-    .btn-register {
-      background-color: #ff7f50;
-      color: #fff;
-      width: 120px;
-      height: Hug(62px);
-      top: 25px;
-      left: 1655px;
-      border-radius: 12px;
-      padding: 16px 32px;
-      gap: 10px;
-    }
-
-  
-    .login-button{
-     
-background: #EB8347;
-
-
-    }
-
-    button.login-button {
-      width: 240px;
-      /* align-content: center; */
-      height: 50px;
-      margin-top: 20px;
-      margin-left: 90px;
-  }
-
-   
-
-  .modal-content {
-    margin-top: 200px;
-    width: 600px;
-    height: 400px;
-    justify-content: center;
-    text-align: center;
-  padding: 40px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  flex-direction: row;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.horizontal-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #007bff;
+  display: inline-block;
+}
+
+.vertical-text {
+  color: #ff7f50;
+  text-align: center;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.header-center {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 388px;
+  height: 75px;
+  background-color: #ff7f50;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rectangle {
+  width: 392px;
+  height: 57px;
+  background-color: #ffffff;
+}
+
+.btn-login,
+.btn-register {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+.btn-login {
+  background-color: #fff;
+  color: #ff7f50;
+  margin-right: 10px;
+  border: 1px solid #ff7f50;
+}
+
+.btn-register {
+  background-color: #ff7f50;
+  color: #fff;
+  width: 120px;
+  height: 62px;
+  top: 25px;
+  left: 1655px;
+  border-radius: 12px;
+  padding: 16px 32px;
+  gap: 10px;
+}
+
+.login-button {
+  background: #eb8347;
+  width: 240px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.modal-content {
+  margin-top: 200px;
+  width: 600px;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
 
 .login-container {
-  display: contents
+  display: contents;
 }
-
 
 button.login-button {
   width: 70px;
-  /* align-content: center; */
 }
 
-
-img {
-  height: 60px;
-  width: 107px;
+.ecb-logo {
+  width: 320px; /* Increase the width */
+  height: 70px; /* Increase the height */
+  margin-left: 0; /* Remove the left margin to align it to the left */
+  margin-top: 26px;
+  margin-right: 5px;
 }
