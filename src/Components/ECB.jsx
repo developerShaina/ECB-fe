@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, Typography } from 'antd';
-import Group427320401Image from '../assets/Images/Group 427320401 (9).svg';
+import Group427320401Image from '../assets/images/Group 427320401 (9).svg';
 
 const { Meta } = Card;
 

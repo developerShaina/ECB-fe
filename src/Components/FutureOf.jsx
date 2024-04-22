@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 
-
-import Image from '../assets/Images/Group 427320410.svg';
+import Image from '../assets/images/Group 427320410.svg';
 
 function FutureOf() {
   return (
@@ -45,10 +44,7 @@ function FutureOf() {
               </a>
             </div>
           </div>
-
-      
           <img src={Image} alt="Image" style={{ maxHeight: '300px', marginLeft: '1rem' }} />
-
         </div>
       </div>
       <br />

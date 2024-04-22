@@ -1,21 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from '../Home';
-
-
-
-
+import Home from '../Components/Home';
 
 function Layout() {
-
-
   return (
     <div>
-        <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-        <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Home />} />
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
 
     </div>
   )

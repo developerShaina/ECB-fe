@@ -12,10 +12,6 @@ function Home() {
     <FutureOf/>
     <ECB/>
 
-
-    
-
-
     </>
   );
 }
