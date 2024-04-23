@@ -66,10 +66,10 @@ border: none;
 
 
 
-
 .background-image {
-  height: 558px;
+  height: 722px;
   width: 328px;
+  border-radius: 6px;
 }
 
 
@@ -136,10 +136,14 @@ input.input-field.password {
   color: #555; 
 }
 
+
+
 .input-field {
   padding-left: 30px;
   width: 100%;
+  height: 35px;
 }
+
 
 .forgot-password {
   color: black;
@@ -184,6 +188,13 @@ h4.text-login {
   font-weight: 400;
 }
 
+h4.text-login1 {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+ 
+}
+
 
 
 .btn-close {
@@ -226,4 +237,43 @@ margin-left: 110px;
 
 .customeye {
   margin-left: -25px;
+}
+
+
+button.signup-button1.text-white {
+  background-color: #eb8347;
+  margin-left: 106px;
+}
+
+.input-container-cust1 {
+  display: flex; 
+  align-items: center; 
+}
+
+.input-label-cust1 {
+  flex: 1; 
+  text-align: right; 
+  padding-right: 10px; 
+}
+
+.input-field.gender,
+.input-field.dob {
+  flex: 1;
+  width: 50%; 
+}
+
+
+.custmodal {
+  padding: 46px;
+}
+
+
+
+.custPadding {
+  padding: 58px;
+}
+
+
+.d-flex.align-items-center.justify-content-center.flex-column.gap-2.custPadding.col-lg-7 {
+  padding: 75px;
 }
