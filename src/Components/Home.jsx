@@ -17,20 +17,21 @@ function Home() {
     <>
       <FutureOf />
       <ECB />
-      <Access/>
-   <Works/>
-   <Partners/>
-   <Peace/>
-   <Driving/>
-   <Join/>
-   <Footer/>
+      <Access />
+      <Works />
+      <Partners />
+      <br/>
+      <br/>
+      <Peace />
+      <Driving />
+      <Join />
 
 
-  
-  
-        
-    
-</>
+
+
+
+
+    </>
   );
 }
 

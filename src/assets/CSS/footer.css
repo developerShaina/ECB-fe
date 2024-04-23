@@ -1,12 +1,10 @@
 .footer-container {
-    width: 1520px;
-    height: 368.53px;
+    width: 100%;
+    height: 383px;
     background-color: #EDEEF7;
-    color: #333; /* Text color */
-    font-size: 24px; /* Adjust font size as needed */
-    font-weight: bold; /* Make the text strong (bold) */
-  
-    left: -1; /* Position from the left edge of the screen */
-    margin-top: 50px; 
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+   margin-top: 50px; 
   }
   

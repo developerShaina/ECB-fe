@@ -13,6 +13,8 @@
   display: flex; 
   flex-direction: column; 
   align-items: center; 
+  /* justify-content: center; */
+  /* gap: 20px; */
 }
 .container2 {
   width: 450px;
@@ -27,7 +29,9 @@
   color: white;
   display: flex; 
   flex-direction: column; 
-  align-items: center; 
+  align-items: center;
+  /* justify-content: center;
+  gap: 20px;  */
 }
 
 .for-borrow {
@@ -56,10 +60,10 @@
 
 .borrow-main {
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .get-started {
@@ -104,4 +108,3 @@
   border-radius: 40px;
   margin-bottom: 10px; 
 }
-
