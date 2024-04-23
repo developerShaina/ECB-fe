@@ -10,7 +10,8 @@ import Image1 from '../assets/images/image1.png';
 import Image2 from '../assets/images/Group 427320445.png';
 import { Col, Modal, Row } from 'react-bootstrap';
 import CloseButton from 'react-bootstrap/CloseButton';
-import { faEnvelope, faLock, faEye } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+
 
 const Login = ({ setActiveForm, activeForm, ...props }) => {
 
@@ -57,60 +58,69 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                     <button className="login-button text-white">Login</button>
                                 </> : (
                                     <>
-
-                                        <h4 className="text-login1">Create an account</h4>
-                                        <div className='modalcust7'>
-                                            <div className="input-container-cust">
-                                                <label htmlFor="fullName" className="input-label">Full Name:</label>
+                                        <div className='customFields'>
+                                            <h4 className="text-login1">Create an account</h4>
+                                            <div className='modalcust7'>
                                                 <div className="input-container-cust">
-                                                    <input type="text" id="fullName" className="input-field fullName custominput" placeholder="Enter Full Name" />
+                                                    <label htmlFor="fullName" className="input-label">Full Name:</label>
+                                                    <div className="input-container-cust">
+                                                        <input type="text" id="fullName" className="input-field fullName custominput inputFullName" placeholder="Enter Full Name" />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="input-container-cust">
-                                                <label htmlFor="email" className="input-label">Email Id:</label>
-                                                <div className="input-with-icon">
-                                                    <FontAwesomeIcon icon={faEnvelope} className="input-icon" />
-                                                    <input type="email" id="email" className="input-field email custominput" placeholder="Enter Email" />
+                                                <div className="input-container-cust">
+                                                    <label htmlFor="email" className="input-label">Email Id:</label>
+                                                    <div className="input-with-icon">
+                                                        <FontAwesomeIcon icon={faEnvelope} className="input-icon" />
+                                                        <input type="email" id="email" className="input-field email custominput" placeholder="Enter Email" />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="input-container-cust1">
-                                                <label htmlFor="gender" className="input-label-cust1">Gender:</label>
-                                                <select id="gender" className="input-field gender">
-                                                    <option value="male">Male</option>
-                                                    <option value="female">Female</option>
-                                                    <option value="other">Other</option>
-                                                </select>
-                                                <label htmlFor="dob" className="input-label-cust1">Date of Birth:</label>
-                                                <input type="date" id="dob" className="input-field dob" />
-                                            </div>
-                                            <div className="input-container-cust">                                   <label htmlFor="mobileNumber" className="input-label">Mobile Number:</label>
-                                                <div className="input-container">
-                                                    <input type="tel" id="mobileNumber" className="input-field mobileNumber custominput" placeholder="Enter Mobile Number" />
+                                                <div className="input-container-cust1">
+                                                    <div className='customGender'>
+                                                        <label htmlFor="gender" className="input-label-cust1">Gender:</label>
+                                                        <select id="gender" className="input-field gender">
+                                                            <option value="male">Male</option>
+                                                            <option value="female">Female</option>
+                                                            <option value="other">Other</option>
+                                                        </select>
+                                                    </div>
+                                                    <div className='customDob'>
+                                                        <label htmlFor="dob" className="input-label-cust1">Date of Birth:</label>
+                                                        <input type="date" id="dob" className="input-field dob" />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="input-container-cust">
-                                                <label htmlFor="password" className="input-label">Password:</label>
-                                                <div className="input-with-icon">
-                                                    <FontAwesomeIcon icon={faLock} className="input-icon" />
-                                                    <input type="password" id="password" className="input-field password custominput" placeholder="Enter Password" />
-                                                    <FontAwesomeIcon icon={faEye} className="eye-icon customeye" />
+                                                <div className="input-container-cust">        <label htmlFor="mobileNumber" className="input-label ">Mobile Number:</label>
+                                                    <div className="input-container">
+                                                        <input type="tel" id="mobileNumber" className="input-field mobileNumber custominput inputFullName"
+                                                            placeholder="+91 | Enter Mobile Number" />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="input-container-cust">
-                                                <label htmlFor="confirmPassword" className="input-label"> Password:</label>
-                                                <div className="input-with-icon">
-                                                    <FontAwesomeIcon icon={faLock} className="input-icon" />
-                                                    <input type="password" id="confirmPassword" className="input-field confirmPassword custominput" placeholder="Enter Password" />
-                                                    <FontAwesomeIcon icon={faEye} className="eye-icon customeye" />
+                                              
 
+                                                <div className="input-container-cust">
+                                                    <label htmlFor="password" className="input-label">Password:</label>
+                                                    <div className="input-with-icon">
+                                                        <FontAwesomeIcon icon={faLock} className="input-icon" />
+                                                        <input type="password" id="password" className="input-field password custominput" placeholder="Enter Password" />
+                                                        <FontAwesomeIcon icon={faEyeSlash} className="eye-icon customeye" />
+                                                    </div>
                                                 </div>
+                                                <div className="input-container-cust">
+                                                    <label htmlFor="confirmPassword" className="input-label"> Password:</label>
+                                                    <div className="input-with-icon">
+                                                        <FontAwesomeIcon icon={faLock} className="input-icon" />
+                                                        <input type="password" id="confirmPassword" className="input-field confirmPassword custominput" placeholder="Enter Password" />
+                                                        <FontAwesomeIcon icon={faEyeSlash} className="eye-icon customeye" />
+
+                                                    </div>
+                                                </div>
+                                                <div className="input-container-cust">
+                                                    <input type="checkbox" id="agreeTerms" className="agree-terms-checkbox" />
+                                                    <label htmlFor="agreeTerms" className="agree-terms">I agree to the Terms of Service and Privacy Policy.</label>
+                                                </div>
+                                                <button className="signup-button1 text-white">Signup</button>
                                             </div>
-                                            <div className="input-container-cust">
-                                                <input type="checkbox" id="agreeTerms" className="agree-terms-checkbox" />
-                                                <label htmlFor="agreeTerms" className="agree-terms">I agree to the Terms of Service and Privacy Policy.</label>
-                                            </div>
-                                            <button className="signup-button1 text-white">Signup</button>
                                         </div>
+
                                     </>
                                 )}
 
