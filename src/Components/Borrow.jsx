@@ -32,7 +32,7 @@ function Borrow() {
   };
   return (
     <>
-      <div className='d-flex'>
+        <div className="d-flex justify-content-center">
 
         <div className='borrow-main'>
           <div className="container1">

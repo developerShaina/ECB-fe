@@ -1,21 +1,21 @@
-
-   .peace-container {
-    background-color: #626ECA;
-    background-image: url('../assets/images/OBJECTS (1).svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
-  }
+.peace-container {
+  background-color: #626ECA;
+  background-image: url('../assets/images/OBJECTS (1).svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 91px;
+}
   
   .new-container {
     width: 1200px;
-    height: 500px;
+    height: 600px;
     border-radius: 40px;
     border: 8px solid #FFFFFF;
     background-color: #FFFFFF;

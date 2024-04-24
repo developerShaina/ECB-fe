@@ -8,17 +8,15 @@ import Home from '../Components/Home';
 
 
 function Layout() {
-
-
   return (
     <div>
-        <BrowserRouter>
+      <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home/>}/>
     
 
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
 
     </div>
   )

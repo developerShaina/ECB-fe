@@ -34,10 +34,16 @@
   }
   .container-wrapper {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 700px; 
-  }
+    height: 700px;
+    padding: 2px;
+    margin: 48px;
+    margin-right: 23px;
+    width: 1389px;
+    gap: 173px;
+    margin-top: -29px;
+}
   
   .image-container {
     height: 100%; 

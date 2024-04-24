@@ -60,7 +60,7 @@ function Peace() {
   return (
     <div className="peace-container">
       <div className="new-container">
-        <img src={ObjectsImage} alt="Objects" className="image-left" />
+        <img src={ObjectsImage} alt="Objects" className="image-left custimage" />
         <div className="text-container">
           <h1><strong className="bold-text">Transact with Peace of Mind</strong></h1>
           <div className="section">

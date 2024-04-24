@@ -1,19 +1,229 @@
-/* Image: Group 2 */
-/* .login-container {
-    background-size: cover;
-    opacity: 0.60;
-    width: 1920px;
-    height: 1080px;
-    left: 1920px;
-    gap: 0px;
-    opacity: 0px;
-  } */
+img.ecb {
+  width: 101px;
+  height: 60px;
+}
+
+img.ecb-image {
+  width: 107.33px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+
+.login-button {
+  height: 43px;
+  width: 180px;
+  border-radius:12px;
+  background: #EB8347;
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+border: none;
+
+}
+
+
+.modal-header1.modal-header {
+  border-bottom: none;
+}
+
+.text-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.text-over-image h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white; 
+}
+
+.text-over-image p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white; 
+}
+
+.signup-button {
+  border: 2px solid #EB8347;
+  height: 43px;
+  width: 180px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white; 
+  z-index: 1;
+  background-color: transparent;
+  position: relative; 
   
-  .login-modal {
-    width: 300px;
-   height: 600px;
-   top: 400px;
-   left: 303px;
-   gap: 0px;
-   opacity: 0px;  
-       }
+}
+
+
+
+
+.background-image {
+  height: 558px;
+  width: 328px;
+}
+
+
+
+.background-image-container {
+  position: relative;
+  width: 99%;
+  height: 100%;
+  margin-bottom: 0%;
+}
+
+
+.grey-background2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  margin-bottom: -1px;
+}
+
+input.input-field.email {
+  height: 40px;
+}
+
+input.input-field.password {
+  height: 40px;
+}
+
+
+.forgot-password {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-decoration: underline !important;
+}
+
+.input-container3 {
+  position: relative;
+}
+
+
+.input-label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #555; 
+}
+
+.input-field {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.forgot-password {
+  color: black;
+  text-decoration: none;
+  margin-left: 104px;
+  font-size: 14px;
+
+}
+
+
+
+
+
+label.remember-me {
+  margin-right: 108px; 
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+
+
+input#rememberMe {
+  width: 20px;
+  height: 16px;
+  margin-right: 5px;
+ 
+}
+
+
+
+.modal-backdrop.show {
+  background:url('../images/backgroundImageecb.png') !important;
+
+}
+
+h4.text-login {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+
+
+.btn-close {
+  position: absolute;
+    right: 20px;
+    top: 5px;
+    color: #351c1c;
+    background-color: #FFFFFF;
+    z-index: 99;
+}
+
+
+
+.signup-button1{
+  height: 43px;
+  width: 180px;
+  border-radius:12px;
+  background: #EB8347;
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+border: none;
+margin-left: 110px;
+}
+
+
+.login-button1{
+  border: 2px solid #EB8347;
+  height: 43px;
+  width: 180px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white; 
+  z-index: 1;
+  background-color: transparent;
+  position: relative; 
+}
+
+
+.customeye {
+  margin-left: -25px;
+}

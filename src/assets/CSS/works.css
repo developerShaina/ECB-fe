@@ -1,18 +1,20 @@
 
-  
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-  }
-  
-  .content img {
-    max-width: 100%; 
+/* .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+} */
 
-    display: block;
-  }
-   
-
+.content img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+}

@@ -1,14 +1,15 @@
-
-   .container7 {
-    background-color: #626ECA;
-    width: 90%;
-    height: 120vh;
-    display: flex;
-    justify-content: center;
-   
-    border-radius: 40px;
-    position: relative;
-  }
+.container7 {
+  background-color: #626ECA;
+  width: 90%;
+  height: 111vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  position: relative;
+  margin-left: 94px;
+  margin-bottom: 162px;
+  margin-top: -135px;
+}
   
   .image {
     width: 900px;

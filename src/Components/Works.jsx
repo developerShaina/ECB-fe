@@ -7,7 +7,7 @@ function Works() {
     <div className="container">
       <div className="content">
        
-        <img src={Group427320382} alt="ECB Image" />
+        <img src={Group427320382} alt="ECB Image" className='content-img' />
       </div>
     </div>
   );
