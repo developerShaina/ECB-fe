@@ -3,9 +3,15 @@ import { Button, Modal } from 'react-bootstrap';
 import ecbSVG from '../assets/images/Frame 427320447.svg';
 
 function Header() {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const [showLogin, setShowLogin] = React.useState(false);
+  const [showRegister, setShowRegister] = React.useState(false);
+  const [activeForm, setActiveForm] = React.useState();
+  const handleCloseLogin = () => setShowLogin(false);
+  const handleShowLogin = () => setShowLogin(true);
+
+  const handleCloseRegister = () => setShowRegister(false);
+  // const handleShowRegister = () => setShowRegister(true);
+
 
   return (
     <>
