@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import ecbSVG from '../assets/images/Frame 427320447.svg';
 import Login from './Login';
 import Register from './Register';
 
@@ -19,7 +18,6 @@ function Header() {
     <>
       <div className="header">
         <div className="header-left">
-          <img src={ecbSVG} alt="ECB Logo" className="ecb-logo" />
         </div>
         <div className="header-center">
           MARKETPLACE
