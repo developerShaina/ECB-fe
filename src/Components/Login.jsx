@@ -11,10 +11,15 @@ import Image2 from '../assets/images/Group 427320445.png';
 import { Col, Modal, Row } from 'react-bootstrap';
 import CloseButton from 'react-bootstrap/CloseButton';
 import { faEnvelope, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 
 const Login = ({ setActiveForm, activeForm, ...props }) => {
+    const [passwordVisibile, setPasswordVisibile] = useState(false);
 
+    const togglePasswordVisibility = () => {
+        setPasswordVisibile(!passwordVisibile);
+    };
     console.log(activeForm);
     return (
         <>
@@ -50,13 +55,13 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                             <input type="password" id="password" className="input-field password" placeholder="Enter Password" />
                                         </div>
                                     </div>
-                                    <a href="#" className="forgot-password">Forgot Password?</a>
+                                    <a href="#" onClick={() => setActiveForm('forgetPassword')} className="forgot-password">Forgot Password?</a>
                                     <div className="remember-me-container">
                                         <input type="checkbox" id="rememberMe" className="remember-me-checkbox" />
                                         <label htmlFor="rememberMe" className="remember-me">Remember Me</label>
                                     </div>
                                     <button className="login-button-custom text-white">Login</button>
-                                </> : (
+                                </> : activeForm === 'signup' ? (
                                     <>
                                         <div className='customFields'>
                                             <h4 className="text-login1">Create an account</h4>
@@ -98,16 +103,16 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                     <label htmlFor="password" className="input-label-cust">Password:</label>
                                                     <div className="input-with-icon">
                                                         <FontAwesomeIcon icon={faLock} className="input-icon" />
-                                                        <input type="password" id="password" className="input-field password custominput" placeholder="Enter Password" />
-                                                        <FontAwesomeIcon icon={faEyeSlash} className="eye-icon customeye" />
+                                                        <input type={passwordVisibile ? "text" : "password"} id="password" className="input-field password" placeholder="Enter Password" />
+                                                        <FontAwesomeIcon icon={passwordVisibile ? faEyeSlash : faEye} className="eye-icon customeye" onClick={togglePasswordVisibility} />
                                                     </div>
                                                 </div>
                                                 <div className="input-container-cust">
                                                     <label htmlFor="confirmPassword" className="input-label-cust"> Password:</label>
                                                     <div className="input-with-icon">
                                                         <FontAwesomeIcon icon={faLock} className="input-icon" />
-                                                        <input type="password" id="confirmPassword" className="input-field confirmPassword custominput" placeholder="Enter Password" />
-                                                        <FontAwesomeIcon icon={faEyeSlash} className="eye-icon customeye" />
+                                                        <input type={passwordVisibile ? "text" : "password"} id="password" className="input-field password" placeholder="Enter Password" />
+                                                        <FontAwesomeIcon icon={passwordVisibile ? faEyeSlash : faEye} className="eye-icon customeye" onClick={togglePasswordVisibility} />
                                                     </div>
                                                 </div>
                                                 <div className="input-container-cust">
@@ -119,7 +124,25 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                         </div>
 
                                     </>
-                                )}
+                                ) : activeForm === 'forgetPassword' ? (
+                                    <>
+                                        <div className="customForgotPassword1">
+                                            <h4 className="text-forgotPassword1">Forgot Password</h4>
+                                            <p className="customForgetContent">To reset your password, please enter your mobile number to receive a verification code.</p>
+                                            <div className="input-container-custForgot">        <label htmlFor="mobileNumber" className="input-label-cust2 ">Mobile Number:</label>
+                                                <div className="input-container">
+                                                    <input type="tel" id="mobileNumber" className="input-field mobileNumber custominput inputFullName"
+                                                        placeholder="+91 | Enter Mobile Number" />
+                                                </div>
+                                            </div>
+                                            <button className="forgotPassword-button-custom text-white">Send OTP</button>
+                                        </div>
+
+                                    </>
+                                ) : null}
+
+
+
 
                             </Col>
                             <Col lg={5} className='p-0 d-flex align-items-center justify-content-center flex-column '>
