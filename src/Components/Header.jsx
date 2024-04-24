@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import Login from './Login';
-import Register from './Register';
 
 function Header() {
   const [showLogin, setShowLogin] = React.useState(false);
@@ -30,7 +29,6 @@ function Header() {
       </div>
       <div>
         <Login setActiveForm={setActiveForm} activeForm={activeForm} showLogin={showLogin} handleClose={handleCloseLogin} />
-        <Register showRegister={showRegister} handleClose={handleCloseRegister} />
       </div>
     </>
   );
