@@ -6,13 +6,13 @@
 
 #root {
   margin: 0 auto;
-  /* padding: 2rem; */
+ 
   text-align: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  /* color-scheme: light dark; */
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,16 +57,17 @@
 }
 
 .main-container {
-  width: 1680px;
+  width: 1600px;
   margin: -8rem;
   text-align: center;
   overflow: hidden;
-  padding-left: 100px;
+  padding-left: 150px;
   margin-top: -19px;
 }
 .ecbcust {
   padding: 84px;
   margin-top: -70px;
+  margin-left: 50px;
 }
 .imagecust {
   margin-left: -15px;
@@ -78,4 +79,5 @@
   height: 50%;
   margin: -80px;
   margin-top: 80px;
+  margin-left: 20px;
 }

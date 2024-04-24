@@ -337,39 +337,3 @@ button.signup-button1.text-white {
   padding: 5px;
 }
 
-
-/* .countryCode {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  padding: 0 5px;
-  border: none;
-  background-color: transparent;
-  color: #555;
-  font-size: 14px;
-  appearance: none; 
-}
-
-.countryCode:focus {
-  outline: none; 
-}
-
-.input-field:focus + .countryCode {
-  border-color: #555; 
-}
-
-.input-with-icon {
-  position: relative;
-}
-
-.input-with-icon select {
-  position: absolute;
-  left: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  font-size: 14px;
-  color: #555;
-} */
