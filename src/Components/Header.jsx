@@ -25,13 +25,14 @@ function Header() {
           MARKETPLACE
         </div>
         <div className="header-right">
-          <button className="btn-login" onClick={handleShow}>Login</button>
-          <button className="btn-register">Register</button>
+          <button className="btn-login" onClick={() => { setActiveForm('login'); handleShowLogin() }}>Login</button>
+          <button className="btn-register" onClick={() => { setActiveForm('register'); handleShowLogin() }}>Register</button>
+
         </div>
       </div>
       <div>
-      <Login setActiveForm={setActiveForm} activeForm={activeForm} showLogin={showLogin} handleClose={handleCloseLogin} />
-      <Register showRegister={showRegister} handleClose={handleCloseRegister} />
+        <Login setActiveForm={setActiveForm} activeForm={activeForm} showLogin={showLogin} handleClose={handleCloseLogin} />
+        <Register showRegister={showRegister} handleClose={handleCloseRegister} />
       </div>
     </>
   );
