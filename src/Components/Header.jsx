@@ -11,7 +11,8 @@ function Header() {
   const handleShowLogin = () => setShowLogin(true);
 
   const handleCloseRegister = () => setShowRegister(false);
-  const handleShowRegister = () => setShowRegister(true);
+  // const handleShowRegister = () => setShowRegister(true);
+
 
   return (
     <>
