@@ -68,7 +68,7 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                     </div>
                                                 </div>
                                                 <div className="input-container-cust">
-                                                    <label htmlFor="email" className="input-label-cust">Email Id:</label>
+                                                    <label htmlFor="email" className="input-label-custommail">Email Id:</label>
                                                     <div className="input-with-icon">
                                                         <FontAwesomeIcon icon={faEnvelope} className="input-icon" />
                                                         <input type="email" id="email" className="input-field email custominput" placeholder="Enter Email" />
