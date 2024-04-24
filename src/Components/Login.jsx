@@ -94,8 +94,6 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                             placeholder="+91 | Enter Mobile Number" />
                                                     </div>
                                                 </div>
-                                              
-
                                                 <div className="input-container-cust">
                                                     <label htmlFor="password" className="input-label">Password:</label>
                                                     <div className="input-with-icon">
@@ -110,7 +108,6 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                         <FontAwesomeIcon icon={faLock} className="input-icon" />
                                                         <input type="password" id="confirmPassword" className="input-field confirmPassword custominput" placeholder="Enter Password" />
                                                         <FontAwesomeIcon icon={faEyeSlash} className="eye-icon customeye" />
-
                                                     </div>
                                                 </div>
                                                 <div className="input-container-cust">
