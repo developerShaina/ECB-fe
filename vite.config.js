@@ -9,7 +9,7 @@ export default defineConfig({
         react(),
         alias({
           entries: [
-            { find: '../assets/images', replacement: './src/assets/images' }
+            { find: '../ECB-fe/src/assets/images', replacement: './src/assets/images' }
           ]
         })
       ]
