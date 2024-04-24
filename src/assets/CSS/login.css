@@ -66,10 +66,10 @@ border: none;
 
 
 
-
 .background-image {
-  height: 558px;
-  width: 328px;
+  height: 600px;
+  width: 410px;
+  border-radius: 6px;
 }
 
 
@@ -90,8 +90,12 @@ border: none;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
-  margin-bottom: -1px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+
 }
+
+
 
 input.input-field.email {
   height: 40px;
@@ -136,10 +140,17 @@ input.input-field.password {
   color: #555; 
 }
 
+
+
+
 .input-field {
   padding-left: 30px;
   width: 100%;
+  height: 40px;
+  border-color: rgb(100 100 100 / 12%);
+  border-radius: 6px;
 }
+
 
 .forgot-password {
   color: black;
@@ -184,6 +195,14 @@ h4.text-login {
   font-weight: 400;
 }
 
+h4.text-login1 {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+ 
+}
 
 
 .btn-close {
@@ -208,6 +227,7 @@ font-weight: 400;
 line-height: 30px;
 border: none;
 margin-left: 110px;
+
 }
 
 
@@ -227,3 +247,129 @@ margin-left: 110px;
 .customeye {
   margin-left: -25px;
 }
+
+
+button.signup-button1.text-white {
+  background-color: #eb8347;
+  margin-left: 75px;
+  
+}
+
+
+.input-container-cust1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+
+
+.input-field.gender,
+.input-field.dob {
+  flex: 1;
+  width: 50%; 
+}
+
+
+.custmodal {
+  padding: 46px;
+}
+
+
+
+.custPadding {
+  padding: 58px;
+}
+
+
+.d-flex.align-items-center.justify-content-center.flex-column.gap-2.custPadding.col-lg-7 {
+  padding: 0px;
+}
+
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: var(--bs-modal-padding);
+  width: 1000px;
+}
+
+.modal-dialog.modal-lg.modal-dialog-centered {
+  margin-left: 245px;
+}
+
+
+.customGender {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  width: 100%;
+  flex-direction: column;
+}
+
+.input-field.gender, .input-field.dob {
+  flex: 1;
+  width: 50%;
+  width: 100%;
+  padding: 7px;
+}
+
+.input-label-cust1 {
+  flex: 1;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-right: 0px;
+}
+
+
+.p-0.modal-body {height: 600px;}
+
+
+
+
+.inputFullName{
+  padding: 5px;
+}
+
+
+/* .countryCode {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 5px;
+  border: none;
+  background-color: transparent;
+  color: #555;
+  font-size: 14px;
+  appearance: none; 
+}
+
+.countryCode:focus {
+  outline: none; 
+}
+
+.input-field:focus + .countryCode {
+  border-color: #555; 
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon select {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  color: #555;
+} */
