@@ -1,8 +1,8 @@
 {
     "redirects": [
       {
-        "source": "/projects/<SideProjectName>",
-        "destination": "<SideProjectProdUrl>/assets/:filePath",
+        "source": "/(.*)",
+        "destination": "./src/assets",
         "permanent": true
       }
     ],
