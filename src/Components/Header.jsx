@@ -26,6 +26,8 @@ function Header() {
         <div className="header-right">
           <button className="btn-login" onClick={() => { setActiveForm('login'); handleShowLogin() }}>Login</button>
           <button className="btn-register" onClick={() => { setActiveForm('register'); handleShowLogin() }}>Register</button>
+{/* <button className="btn-register" onClick={() => { setActiveForm('register'); handleShowLogin() }}>Register</button> */}
+
         </div>
       </div>
 
