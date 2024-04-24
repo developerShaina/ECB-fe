@@ -28,6 +28,7 @@ function Home() {
       <Peace />
       <Driving /> 
       <Join />
+      
 
 
     </>

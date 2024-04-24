@@ -1,9 +1,7 @@
-
 import React from 'react';
 import '../assets/CSS/login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 import BackgroundImage from '../assets/images/image1.png';
 import Image from '../assets/images/Everyone Can Borrow (1).png';
 import Image1 from '../assets/images/image1.png';
@@ -12,11 +10,8 @@ import { Col, Modal, Row } from 'react-bootstrap';
 import CloseButton from 'react-bootstrap/CloseButton';
 import { faEnvelope, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
-
-
 const Login = ({ setActiveForm, activeForm, ...props }) => {
     const [passwordVisibile, setPasswordVisibile] = useState(false);
-
     const togglePasswordVisibility = () => {
         setPasswordVisibile(!passwordVisibile);
     };
@@ -122,7 +117,6 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                 <button className="signup-button1 text-white">Signup</button>
                                             </div>
                                         </div>
-
                                     </>
                                 ) : activeForm === 'forgetPassword' ? (
                                     <>
@@ -137,18 +131,12 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                             </div>
                                             <button className="forgotPassword-button-custom text-white">Send OTP</button>
                                         </div>
-
                                     </>
                                 ) : null}
-
-
-
-
                             </Col>
                             <Col lg={5} className='p-0 d-flex align-items-center justify-content-center flex-column '>
                                 <div className="background-image-container">
                                     <CloseButton onClick={props.handleClose} />
-
                                     <img className="background-image" src={BackgroundImage} alt="Background" />
                                     {activeForm === 'login' ? <>
                                         <div className="text-over-image">
@@ -163,7 +151,6 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                             <button className="login-button1" onClick={() => setActiveForm('login')}>Login</button>
                                         </div>
                                     </>)}
-
                                     <div className="grey-background2"></div>
                                 </div>
                             </Col>
@@ -174,6 +161,4 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
         </>
     );
 };
-
 export default Login;
-
