@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "./src/assets/*",
+        "destination": "/src/assets/*",
+        "permanent": true
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
