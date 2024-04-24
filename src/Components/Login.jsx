@@ -12,8 +12,13 @@ import { faEnvelope, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-s
 import { useState } from 'react';
 const Login = ({ setActiveForm, activeForm, ...props }) => {
     const [passwordVisibile, setPasswordVisibile] = useState(false);
+    const [passwordVisibile2, setPasswordVisibile2] = useState(false);
+
     const togglePasswordVisibility = () => {
         setPasswordVisibile(!passwordVisibile);
+    };
+    const togglePasswordVisibility2 = () => {
+        setPasswordVisibile2(!passwordVisibile2);
     };
     console.log(activeForm);
     return (
@@ -106,8 +111,8 @@ const Login = ({ setActiveForm, activeForm, ...props }) => {
                                                     <label htmlFor="confirmPassword" className="input-label-cust"> Password:</label>
                                                     <div className="input-with-icon">
                                                         <FontAwesomeIcon icon={faLock} className="input-icon" />
-                                                        <input type={passwordVisibile ? "text" : "password"} id="password" className="input-field password" placeholder="Enter Password" />
-                                                        <FontAwesomeIcon icon={passwordVisibile ? faEyeSlash : faEye} className="eye-icon customeye" onClick={togglePasswordVisibility} />
+                                                        <input type={passwordVisibile2 ? "text" : "password"} id="password" className="input-field password" placeholder="Enter Password" />
+                                                        <FontAwesomeIcon icon={passwordVisibile2 ? faEyeSlash : faEye} className="eye-icon customeye" onClick={togglePasswordVisibility2} />
                                                     </div>
                                                 </div>
                                                 <div className="input-container-cust">
