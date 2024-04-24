@@ -2,7 +2,7 @@
 
 import React from 'react';
 import '../assets/CSS/footer.css';
-import frameImage from '../assets/images/frame-223.svg.svg';
+import frameImage from '../assets/images/frame-223.svg';
 import groupImage from '../assets/images/Group 427320388 (1).svg';
 import groupImage1 from '../assets/images/Group 427320389.svg';
 import groupImage2 from '../assets/images/Group 427320390.svg';
