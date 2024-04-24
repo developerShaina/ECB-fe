@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import ecbSVG from '../assets/images/Frame 427320447.svg';
+import Login from './Login';
+import Register from './Register';
 
 function Header() {
   const [showLogin, setShowLogin] = React.useState(false);
@@ -28,20 +30,8 @@ function Header() {
         </div>
       </div>
       <div>
-        <Modal show={show} onHide={handleClose} style={{ padding: '2rem', borderRadius: '40px' }}>
-          <>
-            <div className="header-left">
-              <img src={ecbSVG} alt="Image" style={{ maxHeight: '300px', marginLeft: '1rem' }} />
-            </div>
-            <div className="login-container">
-              <input type="email" className="input-field email" placeholder="Email Id" />
-              <input type="password" className="input-field password" placeholder="Password" />
-              <a href="#" className="forgot-password">Forgot Password?</a>
-              <label className="remember-me">Remember Me?</label>
-              <button className="login-button text-white">Login</button>
-            </div>
-          </>
-        </Modal>
+      <Login setActiveForm={setActiveForm} activeForm={activeForm} showLogin={showLogin} handleClose={handleCloseLogin} />
+      <Register showRegister={showRegister} handleClose={handleCloseRegister} />
       </div>
     </>
   );
